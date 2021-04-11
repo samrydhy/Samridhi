@@ -1,0 +1,57 @@
+print("Name the two chemicals you would like to combine from the following list")
+chemicals= ['Oxygen','Carbon','Hydrogen','Chlorine']
+print(chemicals)
+print("Note: The names of chemicals are proper nouns therefore don't forget the punctuations!")
+chemical_1 = input("Please enter the first chemical from the list provided: ")
+chemical_2 = input("Now enter the second chemical from the list: ")
+a = 'Oxygen'
+b = 'Carbon' 
+c = 'Hydrogen' 
+d = 'Chlorine' 
+if chemical_1 == a:
+    if chemical_2 == a:
+        print ("The product of the two chemicals is Oxygen")
+    elif chemical_2 == b:
+        print ("The product of the two chemicals is Carbon Dioxide")
+    elif chemical_2 == c:
+        print ("The product of the two chemicals is Dihydrogen Monoxide")
+    elif chemical_2 == d:
+        print ("The product of the two chemicals is Chlorine Heptoxide")
+    else:
+        print ("Wrong chemical name")
+elif chemical_1 == b:
+    if chemical_2 == a:
+        print ("The product of the two chemicals is Carbon Dioxide")
+    elif chemical_2 == b:
+        print ("The product of the two chemicals is Carbon")
+    elif chemical_2 == c:
+        print ("The product of the two chemicals is Hydrocarbon")
+    elif chemical_2 == d:
+        print ("The product of the two chemicals is Carbon Tetrachloride")
+    else:
+        print ("Wrong chemical name")
+elif chemical_1 == c:
+    if chemical_2 == a:
+        print ("The product of the two chemicals is Dihydrogen Monoxide")
+    elif chemical_2 == b:
+        print ("The product of the two chemicals is Hydrocarbon")
+    elif chemical_2 == c:
+        print ("The product of the two chemicals is Hydrogen")
+    elif chemical_2 == d:
+        print ("The product of the two chemicals is Hydrogen Chloride")
+    else:
+        print ("Wrong chemical name")
+elif chemical_1 == d:
+    if chemical_2 == a:
+        print ("The product of the two chemicals is Chlorine Heptoxide")
+    elif chemical_2 == b:
+        print ("The product of the two chemicals is Carbon Tetrachloride")
+    elif chemical_2 == c:
+        print ("The product of the two chemicals is Hydrogen Chloride")
+    elif chemical_2 == d:
+        print ("The product of the two chemicals is Chlorine")
+    else:
+        print ("Wrong chemical name")
+else:
+    print ("Wrong chemical name")
+    
